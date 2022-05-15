@@ -25,6 +25,7 @@ class CommentApp extends Component {
                     onSubmit={this.handleSubmitComment}
                 />
                 <CommentList
+
                     comments={this.state.comments}
                 />
             </div>
